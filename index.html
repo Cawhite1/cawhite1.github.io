@@ -26,7 +26,46 @@
 		</div><!-- /.container -->
 		<footer>
     		<ul>
-        	
+        	 <div class='homepage-search-wrapper'>
+        <form role='search' action='/' class='global-search'>
+          <h3 class='title'>
+          	What are you looking for at the library?
+          </h3>
+
+          <div class='search-wrapper'>
+            <div class='input keyword-wrapper'>
+              <label for='homepage-keyword'>
+              	<span class='label-text'>Search by Keyword</span>
+              	<input class='keyword'
+                       id='homepage-keyword'
+                       name='s'
+                       placeholder='Search by Keyword'
+                       type='text'>
+              </label>
+            </div>
+
+            <div class='search-location-group'>
+              <div class='search-location catalog radio-input'>
+                <input checked='checked' id='catalog-homepage-option' name='search-location' type='radio' value='Catalog'>
+                <label for='catalog-homepage-option'>
+                	<span class='radio-label'>Catalog</span>
+                </label>
+              </div>
+              <div class='search-location website radio-input'>
+                <input id='website-homepage-option' name='search-location' type='radio' value='Website'>
+                <label for='website-homepage-option'>
+	                <span class='radio-label'>This Site</span>
+	              </label>
+              </div>
+            </div>
+
+            <button aria-label="Search" class='search-submit' type='submit'>
+            	<div class='icon-search-rev'></div>
+            	<span class='search-submit-text'>Search</span>
+            </button>
+          </div>
+        </form>
+      </div>
 			</ul>
 		</footer>
 	</body>
