@@ -24,6 +24,41 @@
 				<p>Monroeville Public Library is a member of Allegheny County Library Association.</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
+	</div> 
+                  <form method="get" action="https://librarycatalog.einetwork.net/Union/Search" id="searchForm" class="search" onsubmit='startSearch();'>
+ 
+    <span id="search-label">Search</span>
+    <span id="search-type">
+                  <select id="search-select" name="basicType">
+                                      <option value="Keyword">
+                                Keyword
+                      </option>
+                                      <option value="AllFields">
+                                All Fields
+                      </option>
+                                      <option value="Title">
+                                Title
+                      </option>
+                                      <option value="Author">
+                                Author
+                      </option>
+                                      <option value="Contributor">
+                                Author/Artist/Contributor
+                      </option>
+                                      <option value="Subject">
+                                Subject
+                      </option>
+                                      <option value="ISN">
+                                ISBN/ISSN/UPC
+                      </option>
+                                  </select>
+    </span>
+    <span id="for-label">for</span>
+    <div>
+      <input id="lookfor" class="text" type="text" name="lookfor" value=""  />
+      <input id="GoButton" class="button" type="submit" value=""/>
+    </div>
+
 		<footer>
     		<ul>
         	 <div class='homepage-search-wrapper'>
